@@ -1,0 +1,8 @@
+stages:
+- name: llll
+  steps:
+  - runScriptConfig:
+      image: node:latest
+      shellScript: ls
+timeout: 60
+notification: {}
